@@ -8,7 +8,7 @@ function App() {
 
       <h1>Hello React</h1>
       </Router>
-
+      <h1>Hello React</h1>
     </div>
   );
 }
