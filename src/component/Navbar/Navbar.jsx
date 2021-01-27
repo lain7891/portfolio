@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import Background from "../Background/Background"
 
 const styles = {
 home: {
@@ -37,7 +38,7 @@ const Navbar = () => {
 <div className="navbar-end">
 
               {/* <a className="navbar-item">Documentation</a> */}
-              <NavLink to="About" className="navbar-item title is-3" activeClassName="active">About</NavLink>
+              <NavLink to="Projects" className="navbar-item title is-3" activeClassName="active">Projects</NavLink>
               <NavLink to="Contact" className="navbar-item title is-3" activeClassName="active">Contact</NavLink>
               <div className="navbar-item has-dropdown is-hoverable">
                 <a className="navbar-link title is-3">Info</a>
