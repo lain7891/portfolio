@@ -21,9 +21,11 @@ const Projects = () => {
         // </div>
         <>
     
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card title="Project-1" 
+                description="testing data"
+        />
+        <Card title="Project-2"/>
+        <Card title="Project-3"/>
         </>
     );
 };

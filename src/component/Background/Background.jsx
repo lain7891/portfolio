@@ -15,7 +15,7 @@ const styles = {
 const Background = () => {
     return (
         <div className="hero is-fullheight is-primary has-background" >
-  <img alt="Empty Road" className="hero-background is-transparent" src="https://wallpapercave.com/wp/ZEBuAbe.jpg/1920/1080" style={styles.hero}/>
+  <img alt="Empty Road" className="hero-background is-transparent" src="https://wallpapercave.com/wp/ZEBuAbe.jpg" style={styles.hero}/>
 
   </div>
     );

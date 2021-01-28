@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = () => {
+const Card = (props) => {
     return (
 <div className="columns is-mulitiline">
     <div className= "column is-3">
@@ -18,14 +18,13 @@ const Card = () => {
               </figure>
             </div>
             <div className="media-content">
-              <p className="title is-4">John Smith</p>
+              <p className="title is-4">{props.title}</p>
               <p className="subtitle is-6">@johnsmith</p>
             </div>
           </div>
       
           <div className="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+     {props.description}
             <a href="/">#css</a> <a href="/">#responsive</a>
             <br/>
           </div>
