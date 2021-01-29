@@ -5,13 +5,15 @@ const Card = (props) => {
     const styles= {
 card: { 
     paddingTop: 50,
-    paddingLeft: 80
+    paddingLeft: 80,
+    paddingRight: 80,
+    fontFamily: "Caveat, cursive",
 
 }
     }
     return (
 <div className="columns is-multiline" >
-    <div className= "column is-10" style={styles.card}>
+    <div className= "column is-15" style={styles.card}>
     <div className="card">
         <div className="card-image" >
           <figure className="image is-4by3" >
@@ -24,9 +26,9 @@ card: {
             
             </div>
             <div className="media-content">
-              <p className="title is-4">{props.title}</p>
-              <p className="subtitle is-6">GitHub:</p>
-              <p className="subtitle is-6">Deploy:</p>
+              <p className="title is-3">{props.title}</p>
+              <p className="subtitle is-9">GitHub: {props.github}</p>
+              <p className="subtitle is-9">Deploy: {props.deploy}</p>
             </div>
           </div>
       
