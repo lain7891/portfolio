@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import Background from "../Background/Background"
+import Resume from "../../assets/Resume.pdf";
 
 const styles = {
 home: {
@@ -44,11 +44,11 @@ const Navbar = () => {
                 <a className="navbar-link title is-3">Info</a>
 
                 <div className="navbar-dropdown subtitle is-5">
-                  <a className="navbar-item" href="./assets/Resume.pdf">Resume</a>
+                  <a className="navbar-item" href={Resume}>Resume</a>
                   <a className="navbar-item" href="https://github.com/lain7891">GitHub</a>
                   <a className="navbar-item" href="https://www.linkedin.com/in/estefania-lupo/">LinkedIn</a>
                   <hr className="navbar-divider" />
-                  <a className="navbar-item">Phone #</a>
+                  {/* <a className="navbar-item">Phone # 678-793-3025</a> */}
                 </div>
               </div>
             </div>
