@@ -10,7 +10,7 @@ const styles = {
   },
   input: {
     fontFamily: "Caveat, cursive",
-    color: "#ffffff",
+
   },
 };
 
@@ -29,6 +29,8 @@ const Contact = () => {
               <input
                 className="input"
                 type="text"
+                name="Name"
+                id="name"
                 placeholder="Text input"
                 style={styles.input}
               />
@@ -46,6 +48,8 @@ const Contact = () => {
             <input
               className="input is-danger"
               type="email"
+              name="Email"
+              id="email"
               placeholder="Email input"
               style={styles.input}
             />
@@ -64,6 +68,8 @@ const Contact = () => {
             <div className="control">
               <textarea
                 className="textarea"
+                name="Message"
+                id="message"
                 style={styles.input}
                 placeholder="Textarea"
               ></textarea>
