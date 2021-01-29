@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from "../../component/Card/Card"
+import Know from "../../assets/know-before-you-go.png"
 
 // const styles = {
 //     hero: {
@@ -20,12 +21,23 @@ const Projects = () => {
         //     <h1>This is my About Page</h1>
         // </div>
         <>
-    
-        <Card src="assets/know-before-you-go.png" title="Know Before You Go" 
+        <div className="columns">
+            <div className="column">
+            <Card src={Know} title="Know Before You Go" 
                 description="testing data"
         />
-        <Card title="Project-2"/>
-        <Card title="Project-3"/>
+            </div>
+            <div className="column">
+            <Card title="Project-2"/>
+            </div>
+            <div className="column">
+            <Card title="Project-3"/>
+                </div>
+        </div>
+    
+        
+      
+      
         </>
     );
 };

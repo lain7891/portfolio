@@ -2,14 +2,16 @@ import React from 'react';
 
 const Card = (props) => {
 
-    const images= {
-project: { 
+    const styles= {
+card: { 
+    paddingTop: 50,
+    paddingLeft: 80
 
 }
     }
     return (
-<div className="columns is-multiline">
-    <div className= "column is-3">
+<div className="columns is-multiline" >
+    <div className= "column is-10" style={styles.card}>
     <div className="card">
         <div className="card-image" >
           <figure className="image is-4by3" >
