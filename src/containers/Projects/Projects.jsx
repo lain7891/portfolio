@@ -21,7 +21,7 @@ const Projects = () => {
         // </div>
         <>
     
-        <Card title="Project-1" 
+        <Card src="assets/know-before-you-go.png" title="Know Before You Go" 
                 description="testing data"
         />
         <Card title="Project-2"/>
