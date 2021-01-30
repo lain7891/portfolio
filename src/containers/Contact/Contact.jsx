@@ -10,6 +10,7 @@ const styles = {
   },
   input: {
     fontFamily: "Caveat, cursive",
+    color: "#ffffff",
 
   },
 };

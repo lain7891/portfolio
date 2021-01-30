@@ -3,6 +3,7 @@ import Projects from "./containers/Projects/Projects";
 import Contact from "./containers/Contact/Contact";
 import Home from "./containers/Home/Home";
 import Navbar from "./component/Navbar/Navbar";
+import Footer from "./component/Footer/Footer"
 // import Background from "./component/Background/Background"
 
 function App(props) {
@@ -31,6 +32,8 @@ height: '100vh'
           <Route path="/contact" component={Contact}></Route>
           <Route path="/" component={Home}/>
         </Switch>
+        <Footer/>
+        
       </Router>
     </div>
   );

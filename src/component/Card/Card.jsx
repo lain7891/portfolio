@@ -7,8 +7,13 @@ card: {
     paddingTop: 50,
     paddingLeft: 80,
     paddingRight: 80,
+   width: 500,
     fontFamily: "Caveat, cursive",
 
+},
+
+link: {
+  color: "#0000CD"
 }
     }
     return (
@@ -27,8 +32,9 @@ card: {
             </div>
             <div className="media-content">
               <p className="title is-3">{props.title}</p>
-              <p className="subtitle is-9">GitHub: {props.github}</p>
-              <p className="subtitle is-9">Deploy: {props.deploy}</p>
+              <a className="subtitle is-9" style={styles.link} href={props.github}>GITHUB</a>
+              <br/>
+              <a className="subtitle is-9" style={styles.link} href={props.deploy}>DEPLOY</a>
             </div>
           </div>
       
