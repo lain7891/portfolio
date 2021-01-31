@@ -8,7 +8,7 @@ card: {
     paddingLeft: 80,
     paddingRight: 80,
    width: 500,
-    fontFamily: "Caveat, cursive",
+    fontFamily: "Grandstander, cursive",
 
 },
 

@@ -4,35 +4,44 @@ import Me from "../../assets/imageMe.jpeg";
 
 const styles = {
   home: {
-    fontFamily: "Caveat, cursive",
+    fontFamily: "Grandstander, cursive",
 marginTop: 50,
-background: "transparent"
-
+backgroundBlendMode: "screen"
   },
+  image: {
+      height: 220,
+      width: 200,
+      paddingBottom: 10
+  }
 };
 
 const Home = (props) => {
   return (
     <>
 <div className="columns" style={styles.home}>
-<div className="container">
+<div className="column">
   <div className="notification">
   <div className="card-content" style={styles.home}>
-        <div className="media">
+      <div className="columns">
+      <div className="media">
           <div className="media-left">
-            <figure className="image is-48x48">
+          <figure className="image">
               <img
                 src={Me}
                 alt="Girl in Jean shirt"
+                style={styles.image}
               />
             </figure>
+
+      </div>
+    
           </div>
           <div className="media-content">
             <p className="title is-8">About Me</p>
           </div>
         </div>
 
-        <div className="content">
+        <div className="content ">
 
             <p>
             I am a Front End Developer with a background in management. I have a

@@ -10,11 +10,14 @@ function App(props) {
   const styleME ={
     backgroundImage: `url("https://wallpapercave.com/wp/ZEBuAbe.jpg")`,
 backgroundSize: "cover",
-backgroundPosition: 'center',
+backgroundPosition: 'center center',
 backgroundSize: 'cover',
 backgroundRepeat: 'no-repeat',
 maxWidth: '100vw',
-height: '100vh'
+height: '100vh',
+position: "absolute",
+backgroundAttachment: "fixed"
+
 
   
   }

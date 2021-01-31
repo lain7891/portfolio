@@ -2,14 +2,15 @@ import React from "react";
 
 const styles = {
   form: {
-    width: 800,
+    width: 1500,
     paddingLeft: 100,
-    fontFamily: "Caveat, cursive",
+    paddingRight: 500,
+    fontFamily: "Grandstander, cursive",
     color: "#ffffff",
     paddingTop: 50,
   },
   input: {
-    fontFamily: "Caveat, cursive",
+    fontFamily: "Grandstander, cursive",
     color: "#ffffff",
 
   },

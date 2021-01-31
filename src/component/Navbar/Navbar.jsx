@@ -4,7 +4,7 @@ import Resume from "../../assets/Resume.pdf";
 
 const styles = {
 home: {
-    fontFamily: "Caveat, cursive",
+    fontFamily: "Grandstander, cursive",
 }
 }
 
