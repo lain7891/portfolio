@@ -14,7 +14,7 @@ backgroundPosition: 'center center',
 backgroundSize: 'cover',
 backgroundRepeat: 'no-repeat',
 maxWidth: '100vw',
-height: '100vh',
+height: '210vh',
 position: "absolute",
 backgroundAttachment: "fixed"
 
