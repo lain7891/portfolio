@@ -5,6 +5,8 @@ import Me from "../../assets/imageMe.jpeg";
 const styles = {
   home: {
     fontFamily: "Caveat, cursive",
+marginTop: 50,
+background: "transparent"
 
   },
 };
@@ -12,7 +14,7 @@ const styles = {
 const Home = (props) => {
   return (
     <>
-<div className="columns">
+<div className="columns" style={styles.home}>
 <div className="container">
   <div className="notification">
   <div className="card-content" style={styles.home}>
@@ -21,7 +23,7 @@ const Home = (props) => {
             <figure className="image is-48x48">
               <img
                 src={Me}
-                alt="Placeholder image"
+                alt="Girl in Jean shirt"
               />
             </figure>
           </div>

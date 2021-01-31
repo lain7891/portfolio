@@ -1,12 +1,5 @@
 import React from 'react';
 
-// const styles = {
-//     footer: {
-//         fontFamily: "Caveat, cursive",
-//         display: "flex",
-//         maxHeight: "100px",
-//     }
-//     }
 
     var style = {
         textAlign: "center",
@@ -30,10 +23,6 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        
-
-
-
 
 <div>
       <div style={phantom} />
@@ -42,7 +31,6 @@ const Footer = () => {
       </div>
     </div>
      
-
     );
 };
 

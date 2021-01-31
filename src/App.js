@@ -9,18 +9,14 @@ import Footer from "./component/Footer/Footer"
 function App(props) {
   const styleME ={
     backgroundImage: `url("https://wallpapercave.com/wp/ZEBuAbe.jpg")`,
-// backgroundSize: "cover",
+backgroundSize: "cover",
 backgroundPosition: 'center',
 backgroundSize: 'cover',
 backgroundRepeat: 'no-repeat',
-width: '100vw',
+maxWidth: '100vw',
 height: '100vh'
 
-    // position: "absolute",
-    // objectFit: "cover",
-    // objectPosition: "center center",
-    // width: "1000px",
-    // height: "800px"
+  
   }
   return (
     <div className="App" style={styleME}>
@@ -33,7 +29,7 @@ height: '100vh'
           <Route path="/" component={Home}/>
         </Switch>
         <Footer/>
-        
+
       </Router>
     </div>
   );
